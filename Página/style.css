@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Blood Crow';
+    src: url(./Fonts/BloodCrow-GdXg.ttf) format('truetype')
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color:black ;
+}
+img{
+    max-width: 100%;
+}
+h2,h3{
+    font-family: 'Blood Crow';
+}
+header{
+    background-color: black;
+    padding: 15px 0;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width: 15%;
+}
+header nav ul{
+    display: inline-block;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Blood Crow';
+}
+nav ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav .boton{
+    border: 0.5px solid whitesmoke;
+    margin: 0px;
+}
+.boton{
+    border: 1px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 40px;
+}
+section#banner{
+    background: url(./Avengers\ Animados.jfif);
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner > div{
+    width: 50%;
+    text-align: center;
+}
+#banner h1{
+    font-size: 150px;
+    text-shadow: 2px 2px 11px black;
+    color:rgb(143, 11, 11);
+    font-family: 'Blood Crow' ;
+}
+#banner h2{
+    font-size: 100px;
+    color:rgb(143, 11, 11);
+    font-family: 'Blood Crow'; 
+    text-shadow: 2px 2px 11px black;
+    margin:5px;
+}
+#banner p{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    font-family: 'Blood Crow';
+    font-size: 20px;
+}
+
+/*Personajes*/
+
+#Perso h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+section#Perso{
+    width: 80%;
+    margin: auto;
+    color:whitesmoke
+}
+#Perso > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+#Perso article{
+    width: 23%;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 12px;
+}
+#Perso img{
+    border-radius: 12px;
+}
+article > div span{
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    color: whitesmoke;
+}
+.Agua{
+    background-color: aqua;
+}
+.Sol{
+    background-color: orange;
+}
+.Demonio{
+    background-color: red;
+}
+.Rayo{
+    background-color: yellow;
+}
+.Bestia{
+    background-color: brown;
+}
+#Perso .boton{
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+}
+#Perso > a{
+    color: black;
+}
+#Perso article:hover{
+    transform: scale(0.9);
+}
+#Perso article > div{
+    width: 40%;
+    margin:auto;
+}
