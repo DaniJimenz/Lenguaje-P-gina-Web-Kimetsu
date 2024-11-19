@@ -111,6 +111,7 @@ section#Perso{
     text-align: center;
     transition: transform 0.3s;
     border-radius: 12px;
+    font-family: 'Blood Crow';
 }
 #Perso img{
     border-radius: 12px;
@@ -135,11 +136,6 @@ article > div span{
 }
 .Bestia{
     background-color: brown;
-}
-#Perso .boton{
-    border: 1px solid black;
-    color: black;
-    display: inline-block;
 }
 #Perso > a{
     color: black;
