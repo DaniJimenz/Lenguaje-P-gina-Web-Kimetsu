@@ -110,7 +110,7 @@ section#Perso{
     border: 1px solid whitesmoke;
     text-align: center;
     transition: transform 0.3s;
-    border-radius: 12px;
+    border-radius: 11px;
     font-family: 'Blood Crow';
 }
 #Perso img{
@@ -122,21 +122,6 @@ article > div span{
     margin: 3px;
     color: whitesmoke;
 }
-.Agua{
-    background-color: aqua;
-}
-.Sol{
-    background-color: orange;
-}
-.Demonio{
-    background-color: red;
-}
-.Rayo{
-    background-color: yellow;
-}
-.Bestia{
-    background-color: brown;
-}
 #Perso > a{
     color: black;
 }
@@ -146,4 +131,15 @@ article > div span{
 #Perso article > div{
     width: 40%;
     margin:auto;
+}
+.nombre{
+    opacity: 0;
+}
+#Perso article:hover .nombre{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.8rem;
 }
