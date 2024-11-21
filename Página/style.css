@@ -91,7 +91,7 @@ section#banner{
 
 /*Personajes*/
 
-section#Perso{
+section#Perso>div{
     padding-top: 4%;
     display: flex;
     width: 80%;
@@ -139,5 +139,6 @@ section#lunas{
     font-size: 50px;
     color:whitesmoke;
     font-family: 'Blood Crow'; 
-    margin:5px;
+    padding:5px;
+    text-align: center;
 }
