@@ -17,7 +17,7 @@ h2,h3{
     font-family: 'Blood Crow';
 }
 header{
-    background-color: black;
+    background-color: rgb(16, 4, 4);
     padding: 15px 0;
 }
 nav{
@@ -55,12 +55,12 @@ nav .boton{
     font-size: 40px;
 }
 section#banner{
-    background: url(./Avengers\ Animados.jfif);
     background-size: cover;
     height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(118, 38, 38);
 }
 #banner > div{
     width: 50%;
@@ -90,56 +90,25 @@ section#banner{
 
 /*Personajes*/
 
-#Perso h2{
-    text-align: center;
-    padding: 20px;
-    font-size: 50px;
-}
 section#Perso{
-    width: 80%;
-    margin: auto;
-    color:whitesmoke
-}
-#Perso > div{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-}
-#Perso article{
-    width: 23%;
-    border: 1px solid whitesmoke;
-    text-align: center;
-    transition: transform 0.3s;
-    border-radius: 11px;
-    font-family: 'Blood Crow';
+    width: 80%;
+    height: 600px;
+    margin: auto;
 }
 #Perso img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
     border-radius: 12px;
 }
-article > div span{
-    display: inline-block;
-    padding: 5px;
-    margin: 3px;
-    color: whitesmoke;
-}
-#Perso > a{
-    color: black;
-}
-#Perso article:hover{
+#Perso img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
     transform: scale(0.9);
 }
-#Perso article > div{
-    width: 40%;
-    margin:auto;
-}
-.nombre{
-    opacity: 0;
-}
-#Perso article:hover .nombre{
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 1.8rem;
-}
+
