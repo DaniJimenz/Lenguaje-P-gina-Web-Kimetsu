@@ -5,7 +5,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 main{
     background-color:black ;
@@ -22,9 +22,9 @@ header{
 }
 nav{
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 #logo{
@@ -34,7 +34,7 @@ header nav ul{
     display: inline-block;
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     font-family: 'Blood Crow';
 }
@@ -44,6 +44,7 @@ nav ul a{
     font-size: 40px;
 }
 nav .boton{
+    border-radius: 5px;
     border: 0.5px solid whitesmoke;
     margin: 0px;
 }
@@ -91,6 +92,7 @@ section#banner{
 /*Personajes*/
 
 section#Perso{
+    padding-top: 3%;
     display: flex;
     width: 80%;
     height: 600px;
@@ -111,4 +113,25 @@ section#Perso{
     filter: contrast(120%);
     transform: scale(0.9);
 }
-
+section#lunas{
+    padding-top: 3%;
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+#lunas img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 12px;
+}
+#lunas img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    transform: scale(0.9);
+}
