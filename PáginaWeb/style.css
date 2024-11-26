@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Blood Crow';
+    src: url(./Fonts/BloodCrow-GdXg.ttf) format('truetype')
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+main{
+    background-color:white ;
+}
+img{
+    max-width: 100%;
+}
+h2,h3{
+    font-family: 'Blood Crow';
+}
+header{
+    background-color: black;
+    padding: 10px 0;
+}
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#logo{
+    width: 15%;
+}
+header nav ul{
+    display: inline-block;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Blood Crow';
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav .boton{
+    border-radius: 5px;
+    border: 0.5px solid white;
+    margin: 0px;
+}
+.boton{
+    border: 1px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 40px;
+}
+section#banner{
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-position: center;
+    background-image:url(./Imagenes/videogif.gif);
+}  
+#banner > div{
+    width: 50%;
+    text-align: center;
+}
+#banner h1{
+    font-size: 150px;
+    text-shadow: 2px 2px 11px black;
+    color:rgb(143, 11, 11);
+    font-family: 'Blood Crow' ;
+}
+#banner h2{
+    font-size: 100px;
+    color:rgb(143, 11, 11);
+    font-family: 'Blood Crow'; 
+    text-shadow: 2px 2px 11px black;
+    margin:5px;
+}
+#banner p{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: black;
+    font-family: 'Blood Crow';
+    font-size: 20px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    color:whitesmoke;
+    padding: 40px 20px;
+    font-family: 'Blood Crow';
+    text-align: center;
+}
+.contenidofooter{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logofooter h2{
+    font-size: 14px;
+    color: whitesmoke;
+    margin: 5px 0;
+}
+.logofooter p{
+    font-size: 14px;
+    color: whitesmoke;
+    margin: 5px 0;
+}
+.redes h3{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.redes a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.redes a:hover{
+    color:whitesmoke;
+}
+.bottomfooter{
+    border-top: 1px solid;
+    padding: 15px;
+}
+.bottomfooter p{
+    font-size: 14px;
+    color:whitesmoke;
+    margin:0;
+}
+
+/*Serie*/
+
+.serie{
+    background-color:black;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+#infoserie {
+    padding: 50px 20px;
+    background-color:rgb(80, 17, 17);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    font-family: 'Blood Crow';
+}
+
+#infoserie .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#infoserie h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#infoserie .premio {
+    font-size: 1.2em;
+    color: #f8c61c;
+    margin-bottom: 20px;
+}
+#infoserie .puntuacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+#infoserie .estrellas {
+    font-size: 1.5em;
+    color: #ffc107;
+}
+#infoserie .nota {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#infoserie .add-list {
+    background-color: black;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px 0;
+}
+
+#info-serie .add-list:hover {
+    background-color: #d84343;
+}
+
+#info-serie .descripcion {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+/*Slider Serie*/
+
+section#slider{
+    display: flex;
+    width: 98%;
+    height: 400px;
+    background-color:rgb(80, 17, 17) ;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Blood Crow';
+}
+#slider img{
+    width: 2px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 12px;
+}
+#slider img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    transform: scale(0.9);
+}
+section#slider>div{
+    padding: 5%;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
