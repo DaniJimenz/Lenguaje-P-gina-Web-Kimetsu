@@ -368,37 +368,92 @@ section.redessociales {
 .demonios{
     background-color: #121212;
 }
-.introduccion-demonios {
+.introducciondemonios {
     text-align: center;
     font-family: 'Blood Crow';
     padding: 20px;
 }
-.perfiles-demonios {
+.perfilesdemonios {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
     font-family: 'Blood Crow';
 }
-.demonio-perfil {
+.demonioperfil {
     display: flex;
     gap: 15px;
     align-items: center;
     color:white;
 }
-.demonio-perfil img {
+.demonioperfil img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }  
-.demonio-perfil h3 {
+.demonioperfil h3 {
     color: #f39c12;
     margin: 0;
 }
-.demonio-perfil p {
+.demonioperfil p {
     margin: 0;
+}
+.artessangre{
+    background-color: #1A1A1A;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 40px auto;
+    color: #E0E0E0;
+    font-family: 'Blood Crow';
+    text-align:center;  
+}
+.artessangre h2{
+    font-size: 2.5rem;
+    color: #f39c12;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}
+.artessangre p{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.artesrejilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;   
+}
+.arte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.arte:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(243, 156, 18, 0.5);    
+}
+.arte .imagensangre img{
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);    
+}
+.arte .contenidosangre h3{
+    color: #d4af37;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.arte .contenidosangre p{
+    font-size: 16px;
+    color: #E0E0E0;    
 }
 .galeria-demonios {
     text-align: center;
@@ -518,7 +573,6 @@ section.redessociales {
     justify-content:space-around;
     padding: 40px 20px;
     background-color: #1f1f1f;
-    font-family: 'Blood Crow';
 }
 .introduccion-historia .contenido {
     flex: 1;
@@ -530,6 +584,7 @@ section.redessociales {
     color: #f39c12;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Blood Crow';
 }
 .introduccion-historia p {
     font-size: 1.2rem;
@@ -558,6 +613,8 @@ section.redessociales {
     line-height: 1.8;
 }
 .cuerpo-cazadores {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #1f1f1f;
     padding: 40px 20px;
     justify-content: space-around;
@@ -570,9 +627,7 @@ section.redessociales {
 }
 .cuerpo-cazadores p {
     font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 900px;
-    margin: 0 auto 20px;
+    margin: 20px;
 }
 .galeria-cazadores img {
     width: 30%;
@@ -596,8 +651,11 @@ section.redessociales {
     margin-bottom: 20px;
 }
 .batalla-final {
-    background-color: #1f1f1f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
     padding: 40px 20px;
+    background-color: #1f1f1f;
 }
 .batalla-final h2 {
     font-size: 2.5rem;
