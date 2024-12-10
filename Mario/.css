@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+img{
+    max-width: 100%;
+}
+body{
+    back
+}
+header{
+    padding: 10px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+header div{
+    display: flex;
+}
+.logo{
+    height: 50px;
+}
+
+
+/*Main*/
+
+h1{
+    color: blue;
+    font-size: 50px;
+    margin: 20px;
+}
+.banner{
+    background-size: cover;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    padding: 15vh 0;
+    background: url(./Imagenes/fondo-blur.jpg);
+}
+.banner>div{
+    width: 70%;
+    margin: auto;
+    background:url(./Imagenes/fondo.jpg);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 90%;
+}
+.banner>div>div{
+    width: 80%;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.proceso{
+    background-color: rgb(227,237,224,255);
+}
+
+/*Contacto*/
+
+body{
+    background-color:rgb(227,237,224,255)
+}
