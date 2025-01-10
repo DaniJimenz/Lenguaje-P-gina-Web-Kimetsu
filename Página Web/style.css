@@ -1,0 +1,105 @@
+@import url();
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+main{
+    background-image: url(./img/polygon-texture-abstract-background-3d-rendering-free-photo.jpg);
+    background-size: cover;
+}
+header{
+    background-color: rgb(83, 81, 81);
+    display: flex;
+    padding: 0 5% 0 5%;
+}
+.logo{
+    width: 7%;
+}
+header>nav{
+    align-items: center;
+    display: flex;
+    width: 35%;
+}
+ul{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    color: whitesmoke;
+    width: 100%;
+}
+
+/*Banner*/
+
+.banner{
+    background-image: url(./img/banner.jpg);
+    height: 60vh;
+    background-size: cover;
+}
+h2::after{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 4px;
+    text-align: center;
+    background-color: rgb(4, 4, 141);
+}
+h2{
+    color: rgb(4, 4, 141);
+    padding: 2px;
+}
+.nasa{
+    text-align: center;
+    padding: 1%;
+}
+.nasa p{
+    text-align: justify;
+}
+.nasa>article{
+    justify-content: space-around;
+    display: flex;
+
+}
+.nasa>article>div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.espacio{
+    text-align: center;
+    padding: 1%;
+}
+.espacio>div{
+    justify-content: space-around;
+    display: flex;
+    margin: 4%;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(83, 81, 81);
+    color: whitesmoke;
+    padding: 1%;
+    height: 15vh;
+}
+footer>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    
+
+
+
+
+
