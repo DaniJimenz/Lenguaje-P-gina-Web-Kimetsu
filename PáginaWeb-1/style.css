@@ -207,6 +207,7 @@ footer{
     padding: 50px 20px;
     background-color: #292929;
     text-align: center;
+    font-family: 'Blood Crow';
 }
 .sinopsis h2 {
     font-size: 2rem;
@@ -681,4 +682,38 @@ section.redessociales {
     line-height: 1.8;
     max-width: 900px;
     margin: 0 auto 20px;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    header{
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    nav {
+        justify-content: flex-start;
+    }
+    header nav ul{
+        width: 100%;
+    }
+    .respiraciones p{
+        font-size: 20px;
+    }
+    .sinopsis p {
+        font-size: 20px;
+    }
+    .respiracion .imagen img {
+        width: 300px;
+    }
 }
